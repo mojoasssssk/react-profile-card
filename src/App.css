@@ -1,0 +1,56 @@
+/* === CSSの領域（見た目・デザインを定義する） === */
+
+/* カード全体のデザイン */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 40px auto; /* 画面の中央に配置 */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ふんわりとした影 */
+  font-family: sans-serif;
+}
+
+/* タイトルのデザイン */
+.title {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+/* 名前のデザイン */
+.name {
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* ボタンのデザイン */
+.action-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+/* ボタンにカーソルを乗せたときの色 */
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+/* 詳細ボックスのデザイン */
+.detail-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #444;
+  text-align: left;
+}
