@@ -27,7 +27,7 @@ function App() {
 
       {/* ボタンをクリックしたときに、JavaScriptの処理を呼び出す */}
       <button className="action-button" onClick={handleLike}>
-        👍 いいねa{count}
+        👍 キッコーマン{count}
       </button>
 
       <button className="action-button" onClick={toggleDetail}>
